@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T10:56:47.862Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="GpbzINQbkwTPvAtODHCc" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T11:10:41.167Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MZM1XUkm9ct9yYDpJxy2" version="22.1.7" type="github" pages="2">
   <diagram name="第 1 页" id="uvmsUtm4SvPwHGctI5o6">
-    <mxGraphModel dx="1621" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1621" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,6 +18,54 @@
         </mxCell>
         <mxCell id="P9qtei9Fh9gi4WQE0Pk1-10" value="Lane 3" style="swimlane;startSize=20;html=1;" vertex="1" parent="P9qtei9Fh9gi4WQE0Pk1-7">
           <mxGeometry x="240" y="20" width="120" height="460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rOKznpR-ijh4sWOyCu2r" name="业务流程图">
+    <mxGraphModel dx="794" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H0-iVYsh9HhNqJrDz8a0-1" value="对公&lt;br&gt;用户进件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="130" y="111" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H0-iVYsh9HhNqJrDz8a0-2" value="分行审核" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="111" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H0-iVYsh9HhNqJrDz8a0-3" value="审核通过？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="111" width="94" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H0-iVYsh9HhNqJrDz8a0-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H0-iVYsh9HhNqJrDz8a0-1" target="H0-iVYsh9HhNqJrDz8a0-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="311" as="sourcePoint" />
+            <mxPoint x="220" y="261" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H0-iVYsh9HhNqJrDz8a0-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="H0-iVYsh9HhNqJrDz8a0-2" target="H0-iVYsh9HhNqJrDz8a0-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="241" as="sourcePoint" />
+            <mxPoint x="380" y="191" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H0-iVYsh9HhNqJrDz8a0-7" value="开立对公用户&lt;br&gt;账簿" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="540" y="111" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H0-iVYsh9HhNqJrDz8a0-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="H0-iVYsh9HhNqJrDz8a0-3" target="H0-iVYsh9HhNqJrDz8a0-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="281" as="sourcePoint" />
+            <mxPoint x="570" y="231" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H0-iVYsh9HhNqJrDz8a0-9" value="项目签约" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="130" y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H0-iVYsh9HhNqJrDz8a0-10" value="结算周期等&lt;br&gt;参数配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="270" y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H0-iVYsh9HhNqJrDz8a0-11" value="本项目中，对公用户为两类：&lt;br&gt;1. 货主：该项目为自营项目，中交智运为货主角色，该用户有企业网银转账充值需求，开通的基础账簿用于记录充值资金，且使用账簿余额用于支付运费。&lt;br&gt;2. 承运方：通过审核后，开通基础账簿，用户接收货主的运费。同时，承运方可对账簿余额进行提现。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=31;position=0.17;position2=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="650" y="10" width="290" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
