@@ -1,11 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T10:50:21.877Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="gudkzpx9uQE0fdHvysGC" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T10:56:47.862Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="GpbzINQbkwTPvAtODHCc" version="22.1.7" type="github">
   <diagram name="第 1 页" id="uvmsUtm4SvPwHGctI5o6">
-    <mxGraphModel dx="794" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1621" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="P9qtei9Fh9gi4WQE0Pk1-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="100" width="120" height="60" as="geometry" />
+        <mxCell id="P9qtei9Fh9gi4WQE0Pk1-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;对公用户进件&lt;/font&gt;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="50" width="380" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="P9qtei9Fh9gi4WQE0Pk1-7" value="兴易通主要业务流程" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-79.99999999999955" y="10" width="360" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="P9qtei9Fh9gi4WQE0Pk1-8" value="Lane 1" style="swimlane;startSize=20;html=1;" vertex="1" parent="P9qtei9Fh9gi4WQE0Pk1-7">
+          <mxGeometry y="20" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="P9qtei9Fh9gi4WQE0Pk1-9" value="Lane 2" style="swimlane;startSize=20;html=1;" vertex="1" parent="P9qtei9Fh9gi4WQE0Pk1-7">
+          <mxGeometry x="120" y="20" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="P9qtei9Fh9gi4WQE0Pk1-10" value="Lane 3" style="swimlane;startSize=20;html=1;" vertex="1" parent="P9qtei9Fh9gi4WQE0Pk1-7">
+          <mxGeometry x="240" y="20" width="120" height="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
